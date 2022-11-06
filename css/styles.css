@@ -283,14 +283,16 @@ ul {
   align-items: center;
 }
 .team-social-item {
+  width: 44px;
+  height: 44px;
 }
 .team-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
 }
 .team-social-icon {
@@ -324,6 +326,8 @@ ul {
   align-items: center;
 }
 .client-item {
+  width: 170px;
+  height: 92px;
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
@@ -331,8 +335,8 @@ ul {
 .client-link {
   display: flex;
   padding: 16px 32px;
-  width: 170px;
-  height: 92px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 2%;
   background-color: #ffffff;
@@ -419,6 +423,10 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.footer-join-item {
+  width: 44px;
+  height: 44px;
+}
 .footer-join-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -427,8 +435,8 @@ ul {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff10;
 }
 .footer-join-link:hover,
@@ -484,7 +492,7 @@ ul {
   display: block;
   min-width: 100%;
 }
-/* нижнiм третьом елементам margin-bottom: 0 */
+/* нижнiм трьом елементам margin-bottom: 0 */
 .portfolio-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
@@ -492,12 +500,13 @@ ul {
 .portfolio-list-item:nth-child(3n) {
   margin-right: 0;
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-list-link {
+  display: block;
 }
 .portfolio-list-title {
   margin-bottom: 4px;
